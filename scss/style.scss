@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Tektur&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Tektur", cursive;
+}
+
+.container {
+  width: 95%;
+  margin: 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  .wrapper {
+    width: 22%;
+    padding: 30px;
+    margin: 20px auto;
+    border: 2px solid rgba(255, 111, 22, 0.815);
+    border-radius: 10%;
+
+    h1{
+      text-align: center;
+    }
+  }
+}
